@@ -1,0 +1,557 @@
+- repo: alpine_3_19
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: A more powerful alternative to sysctl(8)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-doc
+  visiblename: systeroid-doc
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: A more powerful alternative to sysctl(8) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui
+  visiblename: systeroid-tui
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: systeroid terminal user interface
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui-doc
+  visiblename: systeroid-tui-doc
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: systeroid terminal user interface (documentation) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: A more powerful alternative to sysctl(8)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-doc
+  visiblename: systeroid-doc
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: A more powerful alternative to sysctl(8) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui
+  visiblename: systeroid-tui
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: systeroid terminal user interface
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui-doc
+  visiblename: systeroid-tui-doc
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: systeroid terminal user interface (documentation) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: A more powerful alternative to sysctl(8)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-doc
+  visiblename: systeroid-doc
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: A more powerful alternative to sysctl(8) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui
+  visiblename: systeroid-tui
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: systeroid terminal user interface
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui-doc
+  visiblename: systeroid-tui-doc
+  version: 0.4.4
+  origversion: 0.4.4-r0
+  status: outdated
+  summary: systeroid terminal user interface (documentation) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.5
+  origversion: 0.4.5-r0
+  status: outdated
+  summary: A more powerful alternative to sysctl(8)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-doc
+  visiblename: systeroid-doc
+  version: 0.4.5
+  origversion: 0.4.5-r0
+  status: outdated
+  summary: A more powerful alternative to sysctl(8) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui
+  visiblename: systeroid-tui
+  version: 0.4.5
+  origversion: 0.4.5-r0
+  status: outdated
+  summary: systeroid terminal user interface
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui-doc
+  visiblename: systeroid-tui-doc
+  version: 0.4.5
+  origversion: 0.4.5-r0
+  status: outdated
+  summary: systeroid terminal user interface (documentation) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: A more powerful alternative to sysctl(8)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-doc
+  visiblename: systeroid-doc
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: A more powerful alternative to sysctl(8) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui
+  visiblename: systeroid-tui
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: systeroid terminal user interface
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui-doc
+  visiblename: systeroid-tui-doc
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: systeroid terminal user interface (documentation) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: A more powerful alternative to sysctl(8)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-doc
+  visiblename: systeroid-doc
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: A more powerful alternative to sysctl(8) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui
+  visiblename: systeroid-tui
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: systeroid terminal user interface
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui-doc
+  visiblename: systeroid-tui-doc
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: systeroid terminal user interface (documentation) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: A more powerful alternative to sysctl(8)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-doc
+  visiblename: systeroid-doc
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: A more powerful alternative to sysctl(8) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui
+  visiblename: systeroid-tui
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: systeroid terminal user interface
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: systeroid
+  binname: systeroid-tui-doc
+  visiblename: systeroid-tui-doc
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: systeroid terminal user interface (documentation) (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: altsisyphus
+  srcname: systeroid
+  binnames:
+    - systeroid
+    - systeroid-debuginfo
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-alt1
+  status: newest
+  summary: A more powerful alternative to sysctl(8) with a terminal user interface.
+  maintainers:
+    - zerospirit@altlinux.org
+  licenses:
+    - Apache-2.0 and MIT
+  categories:
+    - System/Configuration/Boot and Init
+- repo: arch
+  subrepo: extra
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-1
+  status: newest
+  summary: A more powerful alternative to sysctl
+  licenses:
+    - MIT
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: TUI and helper tool for sysctl values
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: chimera
+  subrepo: user
+  srcname: systeroid
+  binname: systeroid-doc
+  visiblename: systeroid-doc
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: TUI and helper tool for sysctl values (documentation)
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: chimera
+  subrepo: user
+  srcname: systeroid
+  binname: systeroid-man
+  visiblename: systeroid-man
+  version: 0.4.6
+  origversion: 0.4.6-r0
+  status: newest
+  summary: TUI and helper tool for sysctl values (manual pages)
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: freebsd
+  srcname: sysutils/systeroid
+  binname: systeroid
+  visiblename: sysutils/systeroid
+  version: 0.4.6
+  origversion: 0.4.6_7
+  status: newest
+  summary: More powerful alternative to sysctl(8) with a terminal user interface
+  maintainers:
+    - yuri@freebsd.org
+  categories:
+    - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-1
+  status: newest
+  summary: A more powerful alternative to sysctl
+  licenses:
+    - Apache-2.0 AND MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-1
+  status: newest
+  summary: A more powerful alternative to sysctl
+  licenses:
+    - Apache-2.0 AND MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-1
+  status: newest
+  summary: A more powerful alternative to sysctl
+  licenses:
+    - Apache-2.0 AND MIT
+- repo: nix_stable_24_05
+  srcname: systeroid
+  visiblename: systeroid
+  version: 0.4.5
+  origversion: null
+  status: outdated
+  summary: More powerful alternative to sysctl(8) with a terminal user interface
+  maintainers:
+    - figsoda@pm.me
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_24_11
+  srcname: systeroid
+  visiblename: systeroid
+  version: 0.4.5
+  origversion: null
+  status: outdated
+  summary: More powerful alternative to sysctl(8) with a terminal user interface
+  maintainers:
+    - figsoda@pm.me
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_25_05
+  srcname: systeroid
+  visiblename: systeroid
+  version: 0.4.5
+  origversion: null
+  status: outdated
+  summary: More powerful alternative to sysctl(8) with a terminal user interface
+  maintainers:
+    - figsoda@pm.me
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_25_11
+  srcname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: null
+  status: newest
+  summary: More powerful alternative to sysctl(8) with a terminal user interface
+  maintainers:
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_26_05
+  srcname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: null
+  status: newest
+  summary: More powerful alternative to sysctl(8) with a terminal user interface
+  maintainers:
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_unstable
+  srcname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: null
+  status: newest
+  summary: More powerful alternative to sysctl(8) with a terminal user interface
+  maintainers:
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-1
+  status: newest
+  summary: A more powerful alternative to sysctl
+  licenses:
+    - MIT
+    - Apache-2.0
