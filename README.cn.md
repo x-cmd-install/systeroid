@@ -4,13 +4,25 @@
 
 A more powerful alternative to sysctl(8) with a terminal user interface 🐧
 
-![systeroid](https://repo.x-cmd.io/systeroid.svg)
+![systeroid](https://repo.x-cmd.io/systeroid.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install systeroid
 ```
+
+## 代码规模
+
+合计: **4,306** 行代码（覆盖前 5 种语言、共 **40** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 3,912 | 0 | 259 | 28 |
+| Toml | 246 | 19 | 22 | 8 |
+| Bitbake | 63 | 0 | 5 | 1 |
+| Sh | 48 | 2 | 13 | 2 |
+| Dockerfile | 23 | 0 | 1 | 1 |
 
 ## 源代码
 
@@ -23,7 +35,6 @@ x install systeroid
 - **最新版本**: `v0.4.6` (2025-09-07)
 - **最近提交**: 2026-07-30
 - **Release 含资产**: 39 个
-- **发布时间**: 2025-09-07T15:10:26Z
 
 ## 流行度
 
@@ -38,20 +49,65 @@ x install systeroid
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-07-12 | 0 | 2 | 0 | 0 | 6 | 4 |
 | 90d | 2026-06-12 | 0 | 2 | 0 | 0 | 6 | 4 |
+| last180d | 2026-03-14 | 0 | 2 | 0 | 0 | 6 | 4 |
 | 360d | 2025-09-15 | 0 | 2 | 4 | 0 | 7 | 5 |
+| last720d | 2024-09-20 | 2 | 6 | 5 | 2 | 7 | 33 |
 
-## 代码规模
+## Release 资产
 
-合计: **4,306** 行代码（覆盖前 5 种语言、共 **40** 个文件）。
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [systeroid-0.4.6-aarch64-unknown-linux-gnu.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-aarch64-unknown-linux-gnu.tar.gz) | 2.4 MiB | `native/linux/arm64/glibc` |
+| [systeroid-0.4.6-aarch64-unknown-linux-gnu.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-aarch64-unknown-linux-gnu.tar.gz.sha512) | 179 B | `native/linux/arm64/glibc` |
+| [systeroid-0.4.6-aarch64-unknown-linux-gnu.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-aarch64-unknown-linux-gnu.tar.gz.sig) | 566 B | `native/linux/arm64/glibc` |
+| [systeroid-0.4.6-aarch64-unknown-linux-musl.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-aarch64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/arm64/musl` |
+| [systeroid-0.4.6-aarch64-unknown-linux-musl.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-aarch64-unknown-linux-musl.tar.gz.sha512) | 180 B | `native/linux/arm64/musl` |
+| [systeroid-0.4.6-aarch64-unknown-linux-musl.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-aarch64-unknown-linux-musl.tar.gz.sig) | 566 B | `native/linux/arm64/musl` |
+| [systeroid-0.4.6-arm-unknown-linux-gnueabi.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-arm-unknown-linux-gnueabi.tar.gz) | 2.4 MiB | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-arm-unknown-linux-gnueabi.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-arm-unknown-linux-gnueabi.tar.gz.sha512) | 179 B | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-arm-unknown-linux-gnueabi.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-arm-unknown-linux-gnueabi.tar.gz.sig) | 566 B | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-arm-unknown-linux-gnueabihf.tar.gz) | 2.4 MiB | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-arm-unknown-linux-gnueabihf.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-arm-unknown-linux-gnueabihf.tar.gz.sha512) | 181 B | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-arm-unknown-linux-gnueabihf.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-arm-unknown-linux-gnueabihf.tar.gz.sig) | 566 B | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-armv5te-unknown-linux-gnueabi.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-armv5te-unknown-linux-gnueabi.tar.gz) | 2.4 MiB | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-armv5te-unknown-linux-gnueabi.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-armv5te-unknown-linux-gnueabi.tar.gz.sha512) | 183 B | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-armv5te-unknown-linux-gnueabi.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-armv5te-unknown-linux-gnueabi.tar.gz.sig) | 566 B | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-armv7-unknown-linux-gnueabihf.tar.gz) | 2.4 MiB | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-armv7-unknown-linux-gnueabihf.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-armv7-unknown-linux-gnueabihf.tar.gz.sha512) | 183 B | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-armv7-unknown-linux-gnueabihf.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-armv7-unknown-linux-gnueabihf.tar.gz.sig) | 566 B | `native/linux/arm/glibc` |
+| [systeroid-0.4.6-i686-unknown-linux-gnu.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-i686-unknown-linux-gnu.tar.gz) | 2.5 MiB | `native/linux/x86/glibc` |
+| [systeroid-0.4.6-i686-unknown-linux-gnu.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-i686-unknown-linux-gnu.tar.gz.sha512) | 176 B | `native/linux/x86/glibc` |
+| [systeroid-0.4.6-i686-unknown-linux-gnu.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-i686-unknown-linux-gnu.tar.gz.sig) | 566 B | `native/linux/x86/glibc` |
+| [systeroid-0.4.6-i686-unknown-linux-musl.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-i686-unknown-linux-musl.tar.gz) | 2.5 MiB | `native/linux/x86/musl` |
+| [systeroid-0.4.6-i686-unknown-linux-musl.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-i686-unknown-linux-musl.tar.gz.sha512) | 177 B | `native/linux/x86/musl` |
+| [systeroid-0.4.6-i686-unknown-linux-musl.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-i686-unknown-linux-musl.tar.gz.sig) | 566 B | `native/linux/x86/musl` |
+| [systeroid-0.4.6-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-riscv64gc-unknown-linux-gnu.tar.gz) | 2.4 MiB | `native/linux/riscv64/glibc` |
+| [systeroid-0.4.6-riscv64gc-unknown-linux-gnu.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-riscv64gc-unknown-linux-gnu.tar.gz.sha512) | 181 B | `native/linux/riscv64/glibc` |
+| [systeroid-0.4.6-riscv64gc-unknown-linux-gnu.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-riscv64gc-unknown-linux-gnu.tar.gz.sig) | 566 B | `native/linux/riscv64/glibc` |
+| [systeroid-0.4.6-x86_64-unknown-linux-gnu.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-gnu.tar.gz) | 2.5 MiB | `native/linux/x64/glibc` |
+| [systeroid-0.4.6-x86_64-unknown-linux-gnu.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-gnu.tar.gz.sha512) | 178 B | `native/linux/x64/glibc` |
+| [systeroid-0.4.6-x86_64-unknown-linux-gnu.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-gnu.tar.gz.sig) | 566 B | `native/linux/x64/glibc` |
+| [systeroid-0.4.6-x86_64-unknown-linux-gnu_all-features.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-gnu_all-features.tar.gz) | 2.7 MiB | `native/linux/x64/glibc` |
+| [systeroid-0.4.6-x86_64-unknown-linux-gnu_all-features.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-gnu_all-features.tar.gz.sha512) | 191 B | `native/linux/x64/glibc` |
+| [systeroid-0.4.6-x86_64-unknown-linux-gnu_all-features.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-gnu_all-features.tar.gz.sig) | 566 B | `native/linux/x64/glibc` |
+| [systeroid-0.4.6-x86_64-unknown-linux-musl.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-musl.tar.gz) | 2.6 MiB | `native/linux/x64/musl` |
+| [systeroid-0.4.6-x86_64-unknown-linux-musl.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-musl.tar.gz.sha512) | 179 B | `native/linux/x64/musl` |
+| [systeroid-0.4.6-x86_64-unknown-linux-musl.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-musl.tar.gz.sig) | 566 B | `native/linux/x64/musl` |
+| [systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz) | 2.8 MiB | `native/linux/x64/musl` |
+| [systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz.sha512) | 192 B | `native/linux/x64/musl` |
+| [systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz.sig) | 566 B | `native/linux/x64/musl` |
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 3,912 | 0 | 259 | 28 |
-| Toml | 246 | 19 | 22 | 8 |
-| Bitbake | 63 | 0 | 5 | 1 |
-| Sh | 48 | 2 | 13 | 2 |
-| Dockerfile | 23 | 0 | 1 | 1 |
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/systeroid) 上共有 **44** 个发行版报告此项目。**25** 个 ✅ 已是最新上游版本，**19** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `0.4.6` | ✅ latest |
+| Nix unstable | `0.4.6` | ✅ latest |
+| Alpine edge | `0.4.6` | ✅ latest |
 
 ## 改进这些数据
 
@@ -62,4 +118,4 @@ systeroid 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:08:31Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:58:00Z._
