@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2470827,
       "digest": "sha256:6b506b8dab951ea19f226d2907cf855f309a4036b6c27040d1b701ae6621bf50",
-      "download_count": 54,
+      "download_count": 58,
       "created_at": "2025-09-07T15:10:43Z",
       "updated_at": "2025-09-07T15:10:44Z",
       "browser_download_url": "https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-aarch64-unknown-linux-gnu.tar.gz"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 2782051,
       "digest": "sha256:d20729a9bfd5ffafa8e1004067fbfdfb5ec70589e0cb89b13770ff75e4b6d3b4",
-      "download_count": 71,
+      "download_count": 76,
       "created_at": "2025-09-07T15:10:27Z",
       "updated_at": "2025-09-07T15:10:28Z",
       "browser_download_url": "https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-gnu_all-features.tar.gz"
@@ -1363,7 +1363,7 @@
       "state": "uploaded",
       "size": 2930184,
       "digest": "sha256:54694825a0f17933e10fcb688f9790a53fa678d1bbb371eaed2c708a2b6a6ccb",
-      "download_count": 212,
+      "download_count": 213,
       "created_at": "2025-09-07T15:10:35Z",
       "updated_at": "2025-09-07T15:10:35Z",
       "browser_download_url": "https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz"
