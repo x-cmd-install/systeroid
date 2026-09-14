@@ -48,12 +48,12 @@ Total: **4,306** lines of code across **40** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-07-15 | 0 | 2 | 0 | 0 | 6 | 2 |
-| 90d | 2026-06-15 | 0 | 2 | 0 | 0 | 6 | 4 |
-| last180d | 2026-03-17 | 0 | 2 | 0 | 0 | 6 | 4 |
-| 360d | 2025-09-18 | 0 | 2 | 3 | 0 | 7 | 5 |
-| last720d | 2024-09-23 | 2 | 6 | 5 | 2 | 7 | 33 |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-07-16 | 0 | 2 | 0 | 0 | 6 | 2 |
+| 90d | 2026-06-16 | 0 | 2 | 0 | 0 | 6 | 4 |
+| last180d | 2026-03-18 | 0 | 2 | 0 | 0 | 6 | 4 |
+| 360d | 2025-09-19 | 0 | 2 | 3 | 0 | 7 | 5 |
+| last720d | 2024-09-24 | 2 | 6 | 5 | 2 | 7 | 33 |
 
 ## Release assets
 
@@ -99,16 +99,6 @@ Total: **4,306** lines of code across **40** files in the top 5 languages.
 | [systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz.sha512](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz.sha512) | 192 B | `native/linux/x64/musl` |
 | [systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz.sig](https://github.com/orhun/systeroid/releases/download/v0.4.6/systeroid-0.4.6-x86_64-unknown-linux-musl_all-features.tar.gz.sig) | 566 B | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **44** distros on [repology.org](https://repology.org/project/systeroid). **25** are ✅ on the latest upstream release, **19** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `0.4.6` | ✅ latest |
-| Nix unstable | `0.4.6` | ✅ latest |
-| Alpine edge | `0.4.6` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for systeroid lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `systeroid` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -118,4 +108,4 @@ Install metadata for systeroid lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:12:52Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:20:25Z._
