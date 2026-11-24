@@ -1,42 +1,3 @@
-- repo: nix_stable_25_05
-  srcname: systeroid
-  visiblename: systeroid
-  version: 0.4.5
-  origversion: null
-  status: outdated
-  summary: More powerful alternative to sysctl(8) with a terminal user interface
-  maintainers:
-    - figsoda@pm.me
-    - mail@beyermatthias.de
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: systeroid
-  binname: systeroid
-  visiblename: systeroid
-  version: 0.4.6
-  origversion: 0.4.6-r0
-  status: newest
-  summary: A more powerful alternative to sysctl(8)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_11
-  srcname: systeroid
-  visiblename: systeroid
-  version: 0.4.5
-  origversion: null
-  status: outdated
-  summary: More powerful alternative to sysctl(8) with a terminal user interface
-  maintainers:
-    - figsoda@pm.me
-    - mail@beyermatthias.de
-  licenses:
-    - Apache-2.0
-    - MIT
 - repo: alpine_3_19
   subrepo: community
   srcname: systeroid
@@ -352,10 +313,23 @@
 - repo: alpine_edge
   subrepo: community
   srcname: systeroid
+  binname: systeroid
+  visiblename: systeroid
+  version: 0.4.6
+  origversion: 0.4.6-r1
+  status: newest
+  summary: A more powerful alternative to sysctl(8)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: systeroid
   binname: systeroid-doc
   visiblename: systeroid-doc
   version: 0.4.6
-  origversion: 0.4.6-r0
+  origversion: 0.4.6-r1
   status: newest
   summary: A more powerful alternative to sysctl(8) (documentation)
   maintainers:
@@ -368,7 +342,7 @@
   binname: systeroid-tui
   visiblename: systeroid-tui
   version: 0.4.6
-  origversion: 0.4.6-r0
+  origversion: 0.4.6-r1
   status: newest
   summary: systeroid terminal user interface
   maintainers:
@@ -381,7 +355,7 @@
   binname: systeroid-tui-doc
   visiblename: systeroid-tui-doc
   version: 0.4.6
-  origversion: 0.4.6-r0
+  origversion: 0.4.6-r1
   status: newest
   summary: systeroid terminal user interface (documentation) (documentation)
   maintainers:
@@ -495,6 +469,32 @@
   licenses:
     - Apache-2.0 AND MIT
 - repo: nix_stable_24_05
+  srcname: systeroid
+  visiblename: systeroid
+  version: 0.4.5
+  origversion: null
+  status: outdated
+  summary: More powerful alternative to sysctl(8) with a terminal user interface
+  maintainers:
+    - figsoda@pm.me
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_24_11
+  srcname: systeroid
+  visiblename: systeroid
+  version: 0.4.5
+  origversion: null
+  status: outdated
+  summary: More powerful alternative to sysctl(8) with a terminal user interface
+  maintainers:
+    - figsoda@pm.me
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_25_05
   srcname: systeroid
   visiblename: systeroid
   version: 0.4.5
